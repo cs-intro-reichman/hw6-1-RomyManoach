@@ -24,7 +24,7 @@ public class Runigram {
     // בדוגמה ביקשו לשנות את tinypic (שהיא 4x4) לגודל 3x5
     	print(scaled(tinypic, 3, 5));
 		//// Write here whatever code you need in order to test your work.
-		//// You can continue using the image array.
+		//// You can c ontinue using the image array.
 	}
 
 	/** Returns a 2D array of Color values, representing the image data
