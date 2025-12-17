@@ -229,5 +229,5 @@ public class Runigram {
 		StdDraw.show();
 	}
 }
-
+ 
 	// check
