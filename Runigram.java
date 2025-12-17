@@ -21,7 +21,6 @@ public class Runigram {
 		print(image);
 		
 		System.out.println("Scaled image:");
-    // בדוגמה ביקשו לשנות את tinypic (שהיא 4x4) לגודל 3x5
     	print(scaled(tinypic, 3, 5));
 		//// Write here whatever code you need in order to test your work.
 		//// You can c ontinue using the image array.
