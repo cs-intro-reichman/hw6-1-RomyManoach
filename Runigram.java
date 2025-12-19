@@ -109,17 +109,17 @@ public class Runigram {
 	// Computes the luminance of the RGB values of the given pixel, using the formula 
 	// lum = 0.299 * r + 0.587 * g + 0.114 * b, and returns a Color object consisting
 	// the three values r = lum, g = lum, b = lum.
-	private static Color luminance(Color pixel) {
+	public static Color luminance(Color pixel) {
 		int r = pixel.getRed();
 		int g = pixel.getGreen();
 		int b = pixel.getBlue();
 
-		r = (int) (r * 0.299);
-		g = (int) (g * 0.587);
-		b = (int) (b * 0.114);
+		double r1 = (double) (r * 0.299);
+		double g1 = (double) (g * 0.587);
+		double b1 = (double) (b * 0.114);
 
-		int lum = r+ g + b;
-
+		int lum = (int) (r1 + g1 + b1);
+		System.out.println(lum);
 		return new Color(lum, lum, lum);
 	}
 	
