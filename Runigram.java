@@ -119,7 +119,6 @@ public class Runigram {
 		double b1 = (double) (b * 0.114);
 
 		int lum = (int) (r1 + g1 + b1);
-		System.out.println(lum);
 		return new Color(lum, lum, lum);
 	}
 	
